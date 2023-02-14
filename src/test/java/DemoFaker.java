@@ -3,6 +3,7 @@ import com.github.javafaker.Faker;
 public class DemoFaker {
     public static void main(String[] args) {
 
+        //first automation
 
         Faker faker= new Faker();
         System.out.println(faker.business().creditCardNumber());
